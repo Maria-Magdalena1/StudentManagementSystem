@@ -36,7 +36,7 @@ public class Student {
     private String email;
 
     @Column(unique=true,nullable = false)
-    private int facultyNumber;
+    private Integer facultyNumber;
 
     private LocalDate dateOfBirth;
 
